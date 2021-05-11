@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import Footer from './Footer';
+import Header from './Header';
+import Leftsidebar from './Leftsidebar';
+import Postcard from './Postcard';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* HEADER PART */}
+      <Header/>
+      <div>
+      <section className="main">
+        <div className="container-fluid">
+          <div className="row clearfix">
+            <Leftsidebar/>
+            <Postcard/>
+          </div>
+        </div>
+      </section>
+
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+   
+      
+      {/* FOOTER PART */}
+      
+      <Footer/>   
     </div>
   );
 }
