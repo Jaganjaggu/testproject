@@ -30,13 +30,13 @@ a:focus {
   margin-bottom: 0px;
   box-shadow: 2px 2px 5px #aaa;
 }
-/* .navbar ul.navbar-nav > li { */
-/* } */
+.navbar ul.navbar-nav > li {
+}
 .navbar ul.navbar-nav li:last-child {
   border: none;
 }
-/* .navbar ul.navbar-nav li .prm-btn { */
-/* } */
+.navbar ul.navbar-nav li .prm-btn {
+}
 .navbar-btn {
   box-shadow: none;
   outline: none !important;
@@ -119,8 +119,8 @@ a.create-post:hover {
   padding: 3px 6px;
   width: 50%;
 }
-/* .search-form .search-btn { */
-/* } */
+.search-form .search-btn {
+}
 .search-form input[type="search"].form-control,
 .search-form .search-btn {
   border: none;
@@ -467,8 +467,8 @@ section .section-body {
   left: 10px;
   position: absolute;
 }
-/* .comment ul.coments-use { */
-/* } */
+.comment ul.coments-use {
+}
 .comment ul.coments-use li {
   float: left;
   padding: 0 15px;
@@ -482,7 +482,7 @@ section .section-body {
 }
 .comment ul.coments-use li a {
   display: inline-block;
-  /* float: left; */
+  float: left;
   position: relative;
 }
 .comment ul.coments-use li a > img {
@@ -522,8 +522,8 @@ section .section-body {
   background: url(images/card2.png) no-repeat;
 }
 
-/* .widget-section { */
-/* } */
+.widget-section {
+}
 .widget-section figure.figure {
   position: relative;
 }
@@ -593,8 +593,8 @@ section .section-body {
   padding-right: 22px;
   font-weight: 600;
 }
-/* .dropdown-menu.userdropdown ul { */
-/* } */
+.dropdown-menu.userdropdown ul {
+}
 .dropdown-menu.userdropdown ul li,
 .dropdown-menu.filterdropdown ul li {
   margin-bottom: 15px;
@@ -751,8 +751,8 @@ footer .copy-right a {
 footer ul {
   list-style: none;
 }
-/* footer ul li {
-} */
+footer ul li {
+}
 footer ul li a {
   font-size: 13px;
   color: #e1e4ec;
@@ -762,10 +762,10 @@ footer ul li a {
 /* ---------------------------------------------------
     MODLA STYLE
 ----------------------------------------------------- */
-/* #createTopic .modal-dialog {
+#createTopic .modal-dialog {
 }
 #createTopic .modal-dialog .modeal-body {
-} */
+}
 #createTopic .modal-dialog .modal-body .form-group::placeholder {
   color: red !important;
   opacity: 1; /* Firefox */
@@ -801,12 +801,7 @@ footer ul li a {
   right: 10px;
   position: relative;
 }
-.form-group .d-flex .box {
-  height: 200px;
-  width: 200px;
-  background-color: #fff;
-  border-style: dotted;
-}
+/*.form-group .d-flex .box{ height: 200px ;width: 200px; background-color: #fff; border-style: dotted; }*/
 .modal-body .form-control {
   border: 1px solid #e3e7f0;
   border-radius: 5px;

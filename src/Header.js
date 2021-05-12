@@ -25,7 +25,7 @@ class Header extends Component{
                         <nav className="navbar navbar-expand-lg navbar-light" style={{background:"#ffffff"}}>
                             <div className="container-fluid"> <a id="sidebarCollapse"> <img src={collapsebtn} alt="" className="mr-4"/> </a> <a href="/"> <img src={logo} alt=""/> </a>
                             <button className="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i className="fas fa-align-justify"></i> </button>
-                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div className="collapse navbar-collapse " id="navbarSupportedContent">
                             <form className="form-inline my-2 my-lg-0 ml-auto search-form">
                                 <input className="form-control mr-sm-2 ml-auto" type="search" placeholder="Search" aria-label="Search..."/>
                                 <button className="search-btn my-2 my-sm-0" type="submit"> <img src={searchbtn} alt=""/> </button>
@@ -66,7 +66,7 @@ class Header extends Component{
                             </div>
                             {/* <!--//--> */}
                             </li>
-                            <li className="nav-item "> <a className="prm-btn btn nav-item mt-2 btn-round">UPGRADE</a> </li>
+                            <li className="nav-item "> <a className="prm-btn btn nav-item mt-2 btn-round upgradebtn">UPGRADE</a> </li>
                         </ul>
                         </div>
                     </div>

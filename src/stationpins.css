@@ -1,0 +1,11 @@
+a.btn.btn-outline-primary.btn-round.font-12.create-post.float-right.blue-create-post {
+  color: #2391bf;
+}
+a.btn.btn-outline-primary.btn-round.font-12.create-post.float-right.blue-create-post:hover {
+  color: #fff;
+}
+
+p.author.text14 {
+  font-size: 14px !important;
+  font-weight: 400;
+}

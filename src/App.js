@@ -11,26 +11,30 @@ function App() {
     <div>
       {/* HEADER PART */}
       <Header/>
-      <div>
-      <section className="main">
-        <div className="container-fluid">
-          <div className="row clearfix">
-            <Leftsidebar/>
-            <Postcard/>
-          </div>
-        </div>
-      </section>
 
+      <div class="wrapper">
+        <div id="content">
+          <section className="main">
+            <div className="container-fluid">
+              <div className="row clearfix">
+                <Leftsidebar/>
+                <Postcard/>
+              </div>
+            </div>
+          </section>   
+          
+          
+          {/* FOOTER PART */}
+          
+          <Footer/>   
+          
+        </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+    
    
+    
       
-      {/* FOOTER PART */}
-      
-      <Footer/>   
+     
     </div>
   );
 }
