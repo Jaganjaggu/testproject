@@ -12,6 +12,7 @@ import Pincard from './Pincard';
 
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Postdetails from './PostTopicDetails/PostdetailsFile/Postdetails';
 // import Leftsidebar from './Leftsidebar';
 
 
@@ -51,9 +52,10 @@ function App() {
       <Router>
         
         <Switch>
-            <Route exact path='/Posts' component={Postpage} />
+            <Route exact path='/' component={Postpage} />
             <Route  path='/Posts' component={Postpage} />
             <Route path='/pins' component={Pincard} />
+            <Route path='/post-details' component={Postdetails} />
         </Switch>
       </Router>
      

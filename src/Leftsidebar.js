@@ -28,10 +28,10 @@ class Leftsidebar extends Component{
                 <div id="leftSidebar">
                     <div className="row clearfix">
                         {/* <!-- Top rated widget--> */}
-                        <div className="widget-section blue-bg col-md-12 pt-4 ">
+                        <div className="widget-section blue-bg col-md-12 pt-4 leftsideimg">
                             <section>
                                 <ul className="list-unstyled sidebarlink text-uppercase " >
-                                <li className="leftsidelist"><a href="#"><img src={p1} alt=""/> My Station </a> </li>
+                                <li className="leftsidelist"><a href="#"><img src={p1} alt="" /> My Station </a> </li>
                                 <li className="leftsidelist"><a href="#"><img src={p3} alt=""/> Topics </a></li>
                                 <li className="selected leftsidelist"><a href="/Posts"><img src={p4} alt=""/> Posts </a></li>
                                 <li className="leftsidelist"><a href="#"><img src={p5} alt=""/> Comments </a></li>

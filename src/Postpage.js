@@ -10,35 +10,42 @@ import Leftsidebar from './Leftsidebar';
 import Postcard from './Postcard';
 // import Pincard from './Pincard';
 
-
 function Postpage() {
   return (
     <div>
-      {/* HEADER PART */}
-      <Header/>
+        {/* HEADER PART */}
+        <Header/>
+        {/* Header End */}
+    
+        <div class="wrapper">
+            <div id="content">
+                <section className="main">
+                    <div className="container-fluid">
+                    <div className="row clearfix">
 
-      <div class="wrapper">
-        <div id="content">
-          <section className="main">
-            <div className="container-fluid">
-              <div className="row clearfix">
-                <Leftsidebar/>
-                <Postcard/>
-              </div>
+                        {/* Left Sidebar */}
+                        <Leftsidebar/>
+                        {/* Left Sidebar End */}
+
+                        {/* Postcard */}
+                        <Postcard/>
+                        {/* Postcard End */}
+
+                    </div>
+                    </div>
+                </section>   
+            
+                {/* FOOTER PART */}
+                <Footer/>   
+                {/* Footer End */}
+
             </div>
-          </section>   
-          
-          
-          {/* FOOTER PART */}
-          
-          <Footer/>   
-
         </div>
-      </div>
     </div>
-   
-
   );
 }
 
 export default Postpage;
+
+
+                        

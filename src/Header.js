@@ -14,6 +14,9 @@ import untitled1 from './images/Untitled-1.png';
 import iconhelp from './images/icon--help.png';
 import iconsetting from './images/icon-setting.png';
 import iconlogout from './images/icon-logout.png';
+import Createtopic from './Createtopic';
+import Createpost from './Createpost';
+
 
 class Header extends Component{
     render(){
@@ -72,7 +75,9 @@ class Header extends Component{
                     </div>
                     </nav>
                 </header>
-                
+                <Createtopic/>
+                <Createpost/>
+               
             </div>
         );
     }

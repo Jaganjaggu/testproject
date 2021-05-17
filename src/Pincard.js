@@ -3,6 +3,8 @@ import Header from './Header';
 import Leftsidebar from './Leftsidebar';
 import Pinbody from './Pinbody';
 
+
+
 function Pincard() {
     return (
         <div>

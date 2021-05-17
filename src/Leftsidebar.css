@@ -71,7 +71,12 @@ section .section-header .sec-heading.post-line:after {
   transition: 0.2s;
 }
 
-img {
+/* img {
+  margin-right: 10px;
+  margin-left: 10px;
+} */
+
+.leftsideimg img {
   margin-right: 10px;
   margin-left: 10px;
 }
