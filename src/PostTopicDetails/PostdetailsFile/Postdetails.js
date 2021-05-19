@@ -6,6 +6,7 @@ import Footer from '../../Footer';
 import Header from '../../Header';
 import TopRated from '../TopRated';
 import Invite from './Invite';
+import LeaveComment from './LeaveComment';
 import Widget from './Widget';
 
 
@@ -13,7 +14,7 @@ import Widget from './Widget';
 const Postdetails = () => {
     return (
         <div className="wrapper">
-            <div id="content" className="App">
+            <div id="content">
             <Header />
             <section className="main">
                 <div className="container-fluid visiblity">
@@ -32,6 +33,7 @@ const Postdetails = () => {
                                     <Feedresponse/>
                                 {/* Feed Response End */}
                             </div>
+                            <LeaveComment/>
                         </div>
                         {/* Feed and Feed Responses End */}
 
@@ -48,6 +50,7 @@ const Postdetails = () => {
                     </div>
                 </div>
             </section>
+            
             <Footer />
             </div>
         </div>

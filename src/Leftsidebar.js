@@ -44,9 +44,6 @@ class Leftsidebar extends Component{
                                 <li className="leftsidelist"><a href="#"><img src={p10} alt=""/> Flagged </a></li>
                                  </ul>
                             </section>
-                            
-
-
                         </div>
                         {/* <!--//--> */}
                     </div>

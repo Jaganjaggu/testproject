@@ -21,7 +21,7 @@ import Createpost from './Createpost';
 class Header extends Component{
     render(){
         return(
-            <div>
+            <div className="sticky">
 
                 <header>
                    

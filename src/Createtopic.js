@@ -64,7 +64,7 @@ function Createtopic () {
                                     <label for="exampleFormControlTextarea1">Add topic image</label>
                                     <div class="card-box-dotted p-5 text-center"> <a href=""><img src={choose} class="img-fluid mb-4"/></a>
                                         <div> <a class='btn btn-outline-primary btn-round font-12' href='javascript:;'> Choose File...
-                                        <input type="file" style={{position:"absolute","z-index":2, top:0, left:0, filter: "alpha(opacity=0)", "-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)", opacity:0, "background-color":"transparent", color:"transparent"}} name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'/>
+                                        <input type="file" style={{position:"absolute",zIndex:2, top:0, left:0, filter: "alpha(opacity=0)", "-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)", opacity:0, "background-color":"transparent", color:"transparent"}} name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'/>
                                         </a> &nbsp; <span class='label label-info' id="upload-file-info"></span> </div>
                                     </div>
                                     <div class="form-check-inline mt-3">

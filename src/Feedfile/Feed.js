@@ -14,10 +14,10 @@ const Feed = () => {
             <div className="media p-3"> <img src={author1} alt="John Doe" className="mr-3 rounded-circle" style={{width:'86px'}}/>
                 <div className="media-body">
                     <div className="article-title">
-                        <h5 ><a href="/post-details">Why Colleges now imposing uniforms? </a><a href="#" className="btn btn-round prm-btn font-12 float-right">Follow</a> </h5>
+                        <h5 ><a style={{color:"black"}} href="/topic-details">Why Colleges now imposing uniforms? </a><a href="#" className="btn btn-round prm-btn font-12 float-right">Follow</a> </h5>
                     </div>
                     <div className="article-body">
-                        <h5>I Totally agree <a href=""><img src={dlt11} className="float-right ml-2"/></a><a className="btn btn-outline-primary btn-round font-12 float-right create-post blue-create-post"> &nbsp; <b>Create Post</b> </a> </h5>
+                        <h5><a style={{color:"black"}} href="/post-details">I Totally agree</a> <a href=""><img src={dlt11} className="float-right ml-2"/></a><a className="btn btn-outline-primary btn-round font-12 float-right create-post blue-create-post"> &nbsp; <b>Create Post</b> </a> </h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <a className="font-pink" href="#"><small><u>more...</u></small></a></p>
                         <p className="author">Posted by <a href="#">James_007 </a>2 hours ago</p>
                         {/* <!----> */}
